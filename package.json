@@ -1,14 +1,16 @@
 {
   "name": "rollup-react-app",
   "scripts": {
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "build": "rollup -c"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.6.0"
+    "eslint-plugin-react": "^7.6.0",
+    "rollup": "^0.55.1"
   },
   "private": true
 }
