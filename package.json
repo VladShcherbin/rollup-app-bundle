@@ -4,6 +4,10 @@
     "lint": "eslint src",
     "build": "rollup -c"
   },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
   "devDependencies": {
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
