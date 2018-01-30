@@ -2,7 +2,8 @@
   "name": "rollup-react-app",
   "scripts": {
     "lint": "eslint src",
-    "build": "rollup -c"
+    "build:rollup": "rollup -c",
+    "build:webpack": "webpack"
   },
   "dependencies": {
     "apollo-cache-inmemory": "^1.1.5",
