@@ -4,8 +4,10 @@
 
 To build app and see current status:
 
-```
+```bash
 yarn
-
-yarn build
+# rollup
+yarn build:rollup
+# webpack
+yarn build:webpack
 ```
